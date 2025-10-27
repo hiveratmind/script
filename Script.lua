@@ -48,7 +48,7 @@ local function dealDamage(amount)
     if not target then return end
 
     local args = {
-        [1] = "DustBone",
+        [1] = "Slash",
         [2] = target,
         [3] = amount,
         [4] = "Skill2",
@@ -73,7 +73,7 @@ MainSection:NewButton("Heal Enemy", "Heals The Closest Enemy [Good For Trolling]
     if not target then return end
 
     local args = {
-        [1] = "DustBone",
+        [1] = "Slash",
         [2] = target,
         [3] = -10000,
         [4] = "Skill2",
