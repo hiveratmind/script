@@ -51,7 +51,7 @@ local function dealDamage(amount)
         [1] = "Slash",
         [2] = target,
         [3] = amount,
-        [4] = "Skill3",
+        [4] = "Skill2",
         [5] = 0,
         [6] = "NormalDMG"
     }
@@ -76,7 +76,7 @@ MainSection:NewButton("Heal Enemy", "Heals The Closest Enemy [Good For Trolling]
         [1] = "Slash",
         [2] = target,
         [3] = -10000,
-        [4] = "Skill3",
+        [4] = "Skill2",
         [5] = 0,
         [6] = "NormalDMG"
     }
