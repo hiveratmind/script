@@ -48,7 +48,7 @@ local function dealDamage(amount)
     if not target then return end
 
     local args = {
-        [1] = "RealKnife",
+        [1] = "Real_Knife",
         [2] = target,
         [3] = amount,
         [4] = "Skill1",
@@ -68,12 +68,12 @@ MainSection:NewButton("80000 Damage", "Deals 80,000 Damage", function() dealDama
 MainSection:NewButton("100000 Damage", "Deals 100,000 Damage", function() dealDamage(100000) end)
 
 -- Heal Enemy
-MainSection:NewButton("Heal Enemy", "Heals The Closest Enemy [Good For Trolling]", function()
+MainSection:NewButton("Heal Enemwy", "Heals The Closest Enemy [Good For Trolling]", function()
     local target = getClosestDummy()
     if not target then return end
 
     local args = {
-        [1] = "RealKnife",
+        [1] = "Real_Knife",
         [2] = target,
         [3] = -10000,
         [4] = "Skill1",
