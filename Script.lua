@@ -68,7 +68,7 @@ MainSection:NewButton("80000 Damage", "Deals 80,000 Damage", function() dealDama
 MainSection:NewButton("100000 Damage", "Deals 100,000 Damage", function() dealDamage(100000) end)
 
 -- Heal Enemy
-MainSection:NewButton("Heal Enemwy", "Heals The Closest Enemy [Good For Trolling]", function()
+MainSection:NewButton("Heal Enemy", "Heals The Closest Enemy [Good For Trolling]", function()
     local target = getClosestDummy()
     if not target then return end
 
